@@ -9,7 +9,7 @@ namespace TestSourceControl
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string message = "Success";
+            string message = "Success! Source Control Added!";
             MessageBox.Show(message);
         }
     }

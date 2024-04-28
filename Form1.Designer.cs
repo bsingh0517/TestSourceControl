@@ -47,6 +47,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI Black", 22F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.FromArgb(0, 0, 192);
             button1.Location = new Point(266, 221);
             button1.Name = "button1";
             button1.Size = new Size(350, 83);
@@ -62,6 +63,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label1);
+            ForeColor = Color.Red;
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
